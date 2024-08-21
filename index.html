@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Pessoal</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Menu fixo superior -->
+    <nav>
+        <ul>
+            <li><a href="#sobre">Sobre mim</a></li>
+            <li><a href="#formacao">Formação educacional</a></li>
+            <li><a href="#portfolio">Portfólio</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <!-- Seção Sobre mim -->
+    <section id="sobre">
+        <h2>Sobre mim</h2>
+        <div>
+            <div id="profile-photo">
+                <img src="./img/profile-photo.jpg" alt="Foto de perfil">
+            </div>
+            <div id="profile-description" class="grey-quote">
+                <p>
+                    Estudante de Ciência de Dados, com experiência em vendas e administração. 
+                    Fernando é apaixonado por pessoas, processos e tecnologia, sempre com o objetivo de contribuir com 
+                    novas ideias e informações úteis para a melhoria contínua do trabalho em equipe. 
+                </p>
+            </div>
+        </div>
+    </section>
+
+        <!-- Seção Formação educacional -->
+    <section id="formacao">
+        <h2>Formação educacional</h2>
+
+        <!-- Sub-seção 1 -->
+        <div class="sub-section">
+            <span class="grey-quote">Janeiro/2013 a Dezembro/2015</span>
+            <h3>Ensino Médio-Técnico – Colégio Técnico Industrial Prof° Isaac Portal Roldán, Habilitação em Eletrônica</h3>
+            <p>Competências adquiridas: Conhecimentos em eletrônica básica e avançada, habilidades práticas em circuitos eletrônicos e manutenção de equipamentos.</p>
+        </div>
+
+        <!-- Sub-seção 2 -->
+        <div class="sub-section">
+            <span class="grey-quote">Agosto/2014 – Agosto/2015</span>
+            <h3>Iniciação Científica aplicada ao Posicionamento Automático de Painéis Fotovoltaicos utilizando Controladores Lógicos Programáveis - Faculdade de Engenharia de Bauru</h3>
+            <p>Competências adquiridas: Desenvolvimento de soluções para automação de sistemas fotovoltaicos, programação de CLPs e análise de eficiência energética.</p>
+        </div>
+
+        <!-- Sub-seção 3 -->
+        <div class="sub-section">
+            <span class="grey-quote">Dezembro/2023 - Presente</span>
+            <h3>Graduação Tecnólogo em Ciência de Dados - Uninter</h3>
+            <p>Competências adquiridas: Análise de dados, modelagem estatística, aprendizado de máquina e visualização de dados.</p>
+        </div>
+    </section>
+
+    <!-- Seção Portfólio -->
+    <section id="portfolio">
+        <h2>Portfólio</h2>
+        <div class="gallery">
+            <!-- Elemento de portfólio 1 -->
+            <figure class="gallery-item">
+                <a href="https://github.com/stars/fernando-vpran/lists/project-todolist" target="_blank">
+                    <img src="img/project-todolist.png" alt="Projeto Todolist Django Rest API">
+                </a>
+                <figcaption>Projeto 1: Todolist Django REST API + Angular 8.</figcaption>
+            </figure>
+
+            <!-- Elemento de portfólio 2 -->
+            <figure class="gallery-item">
+                <a href="https://github.com/fernando-vpran/100-days-css/" target="_blank">
+                    <img src="img/project-100-days-css-responsive.png" 
+                         alt="Projeto Logo responsivo desafio 100 days of CSS">
+                </a>
+                <figcaption>Projeto 2: Logo responsivo desafio "100 days of CSS"</figcaption>
+            </figure>
+
+            <!-- Elemento de portfólio 3 -->
+            <figure class="gallery-item">
+                <a href="https://github.com/fernando-vpran/coffee-cup" target="_blank">
+                    <img src="img/project-cup-coffee-animated.png" alt="Projeto 3">
+                </a>
+                <figcaption>Projeto 3: Animação xícara de café</figcaption>
+            </figure>
+
+            <!-- Elemento de portfólio 4 -->
+            <figure class="gallery-item">
+                <a href="https://github.com/fernando-vpran/logo-netflix" target="_blank">
+                    <img src="img/project-logo-netflix.png" alt="Projeto 3">
+                </a>
+                <figcaption>Projeto 4: Logo netflix HTML e CSS.</figcaption>
+            </figure>
+        </div>
+    </section>
+
+    <!-- Seção Formulário de contato -->
+    <section id="contato">
+        <h2>Contato</h2>
+        <form>
+            <input type="text" name="nome" placeholder="Nome" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <textarea name="mensagem" rows="5" placeholder="Mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+</body>
+</html>
